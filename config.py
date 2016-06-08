@@ -16,3 +16,9 @@ OPENID_PROVIDERS = [
     {'name': 'MyOpenID', 'url': 'https://www.myopenid.com'}]
 # https://accounts.google.com/o/oauth2/v2/auth
 
+MAIL_SERVER = 'localhost'
+MAIL_PORT = 25
+MAIL_USERNAME = None
+MAIL_PASSWORD = None
+
+ADMINS = ['rschuet@gmail.com', 'ryan@schuetzler.net']
