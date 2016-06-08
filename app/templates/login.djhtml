@@ -1,5 +1,5 @@
 <!-- extend base layout -->
-{% extends "base.html" %}
+{% extends "base.djhtml" %}
 
 {% block content %}
 <script type="text/javascript">
@@ -22,10 +22,10 @@
 		Please enter your OpenID:<br>
 		{{ form.openid(size=80) }}<br>
 		{% for error in form.openid.errors %}
-		<span style="color: red;">[{{ error }}]</span>
+			<span style="color: red;">[{{ error }}]</span>
 		{% endfor %}
 		{% for pr in providers %}
-		<a href="javascript:set_openid('{{ pr.url }}', '{{ pr.name }}');">{{ pr.name }}</a> |
+			<a href="javascript:set_openid('{{ pr.url }}', '{{ pr.name }}');">{{ pr.name }}</a> |
 		{% endfor %}
 	</p>
 	<p>{{ form.remember_me }} Remember me</p>
