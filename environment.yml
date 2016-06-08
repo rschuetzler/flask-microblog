@@ -1,0 +1,44 @@
+name: flask
+dependencies:
+- click=6.6=py35_0
+- flask=0.11=py35_0
+- itsdangerous=0.24=py35_0
+- jinja2=2.8=py35_1
+- markupsafe=0.23=py35_2
+- openssl=1.0.2h=1
+- pip=8.1.2=py35_0
+- python=3.5.1=0
+- readline=6.2=2
+- setuptools=22.0.5=py35_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- werkzeug=0.11.9=py35_0
+- wheel=0.29.0=py35_0
+- xz=5.0.5=1
+- zlib=1.2.8=3
+- pip:
+  - babel==2.3.4
+  - blinker==1.4
+  - coverage==4.1
+  - decorator==4.0.10
+  - defusedxml==0.4.1
+  - flask-babel==0.11.1
+  - flask-login==0.3.2
+  - flask-mail==0.9.1
+  - flask-openid==1.2.5
+  - flask-sqlalchemy==2.1
+  - flask-whooshalchemy==0.56
+  - flask-wtf==0.12
+  - flipflop==1.0
+  - guess-language==0.2
+  - pbr==1.10.0
+  - python3-openid==3.0.10
+  - pytz==2016.4
+  - six==1.10.0
+  - sqlalchemy==1.0.13
+  - sqlalchemy-migrate==0.10.0
+  - sqlparse==0.1.19
+  - tempita==0.5.2
+  - whoosh==2.7.4
+  - wtforms==2.1
+
