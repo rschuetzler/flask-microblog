@@ -1,3 +1,9 @@
+# Ignore database and SQLAlchemy migration stuff
+app.db
+test.db
+db_repository/
+tmp/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
