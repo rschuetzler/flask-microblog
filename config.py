@@ -22,3 +22,6 @@ MAIL_USERNAME = None
 MAIL_PASSWORD = None
 
 ADMINS = ['rschuet@gmail.com', 'ryan@schuetzler.net']
+
+# Pagination
+POSTS_PER_PAGE = 3
